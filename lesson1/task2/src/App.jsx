@@ -4,7 +4,7 @@ import { ThemeContext } from './themes-context';
 
 class App extends React.Component {
     state = {
-        data :
+        userData:
         {
             name: 'Nikola Tesla',
             avatar_url: 'https://avatars3.githubusercontent.com/u10001',
@@ -14,10 +14,10 @@ class App extends React.Component {
 
     render() {
         return (
-            
-            <ThemeContext.Provider value={this.state.data}>
-            <div className="page">
-                <Header />
+
+            <ThemeContext.Provider value={this.state.userData}>
+                <div className="page">
+                    <Header />
                 </div>
             </ThemeContext.Provider>
         );
