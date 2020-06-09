@@ -27,10 +27,10 @@ export const counterReducer = (state = 0, action) => {
 
 };
 
-// const store = createStore(counterReducer);
+export const store = createStore(counterReducer);
 
-// store.dispatch(incrementActionCreator());
-// store.dispatch(incrementActionCreator());
-// store.dispatch(decrementActionCreator());
+store.dispatch(incrementActionCreator());
+store.dispatch(incrementActionCreator());
+store.dispatch(decrementActionCreator());
 
 // console.log(store.getState());
