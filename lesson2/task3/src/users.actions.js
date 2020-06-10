@@ -1,5 +1,5 @@
-export const ADD = 'ADD';
-export const REMOVE = 'REMOVE'
+const ADD = 'ADD';
+const REMOVE = 'REMOVE'
 
 export const addUser = userData => {
     return {
