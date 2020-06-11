@@ -1,10 +1,10 @@
 import { ADD, REMOVE } from './cart.actions';
 
-const cart = {
+const initialState = {
     products: [],
 };
 
-export const cartReducer = (state = cart, action) => {
+export const cartReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD: {
             return {
