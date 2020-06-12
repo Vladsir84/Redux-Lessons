@@ -25,22 +25,22 @@ const initialState = {
         {
             age: 12,
             name: 'Gus',
-            id: 'id-0',
+            id: 'id-4',
         },
         {
             age: 60,
             name: 'Ozzy',
-            id: 'id-1',
+            id: 'id-5',
         },
         {
             age: 28,
             name: 'Dock',
-            id: 'id-2',
+            id: 'id-6',
         },
         {
             age: 49,
             name: 'Zak',
-            id: 'id-3',
+            id: 'id-7',
         }
 
 
