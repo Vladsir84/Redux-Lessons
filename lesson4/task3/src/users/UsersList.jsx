@@ -42,8 +42,8 @@ const mapState = state => {
 
 const mapDispatch = {
 
-    goPrev: userActions.goPrevPage,
-    goNext: userActions.goNextPage,
+    goPrev: userActions.goPrev,
+    goNext: userActions.goNext,
 
 };
 
