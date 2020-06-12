@@ -3,46 +3,62 @@ import { GO_PREV, GO_NEXT } from './users.actions';
 const initialState = {
     usersList: [
         {
+            id: 'id-0',
             age: 21,
             name: 'Bob',
-            id: 'id-0',
         },
         {
+            id: 'id-1',
             age: 17,
             name: 'Tom',
-            id: 'id-1',
         },
         {
+            id: 'id-2',
             age: 18,
             name: 'Tad',
-            id: 'id-2',
         },
         {
-            age: 45,
-            name: 'Sam',
             id: 'id-3',
+            age: 45,
+            name: 'Justin',
         },
         {
-            age: 31,
-            name: 'Gus',
             id: 'id-4',
+            age: 45,
+            name: 'Franklin',
         },
         {
-            age: 67,
-            name: 'Ozz',
             id: 'id-5',
+            age: 45,
+            name: 'John',
         },
         {
-            age: 58,
-            name: 'Udo',
             id: 'id-6',
+            age: 45,
+            name: 'Andrew',
         },
         {
-            age: 47,
-            name: 'Zak',
             id: 'id-7',
+            age: 45,
+            name: 'Pol',
         },
-],
+        {
+            id: 'id-8',
+            age: 45,
+            name: 'Ron',
+        },
+        {
+            id: 'id-9',
+            age: 45,
+            name: 'Harry',
+        },
+        {
+            id: 'id-10',
+            age: 45,
+            name: 'Anna',
+        },
+    ],
+
 
     currentPage: 0,
 
