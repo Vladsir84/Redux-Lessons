@@ -22,7 +22,26 @@ const initialState = {
             name: 'Sam',
             id: 'id-3',
         },
-        
+        {
+            age: 31,
+            name: 'Gus',
+            id: 'id-4',
+        },
+        {
+            age: 67,
+            name: 'Ozz',
+            id: 'id-5',
+        },
+        {
+            age: 58,
+            name: 'Udo',
+            id: 'id-6',
+        },
+        {
+            age: 47,
+            name: 'Zak',
+            id: 'id-7',
+        },
 ],
 
     currentPage: 0,
